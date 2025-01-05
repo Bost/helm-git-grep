@@ -739,7 +739,7 @@ if region exists.
 ;;;###autoload
 (define-obsolete-function-alias 'helm-git-grep-from-here 'helm-git-grep-at-point "0.5")
 ;;;###autoload
-(make-obsolete
+(make-obsolete-variable
  'helm-git-grep-with-exclude-file-pattern
  helm-git-grep-with-exclude-file-pattern-obsolete-message "0.10.0")
 
